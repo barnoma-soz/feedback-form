@@ -25,4 +25,7 @@
     @apply border border-gray-300 text-gray-700 hover:bg-gray-50;
   }
 
+  .error {
+    @apply mt-1 text-sm text-red-500;
+  }
 }
