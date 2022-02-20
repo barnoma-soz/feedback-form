@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  label {
+    @apply block mb-1 text-sm font-medium;
+  }
+
+  [type="text"],
+  [type="email"],
+  textarea {
+    @apply w-full py-3 pl-6 pr-8 placeholder-gray-400 border-gray-300 rounded-lg shadow-sm focus:border-blue-700 focus:ring-blue-700;
+  }
+
+  .btn {
+    @apply relative px-6 py-3.5 font-medium text-sm whitespace-nowrap tracking-wide rounded-lg;
+  }
+
+  .btn-primary {
+    @apply text-white border border-blue-700 bg-blue-700 hover:bg-opacity-80;
+  }
+
+  .btn-secondary {
+    @apply border border-gray-300 text-gray-700 hover:bg-gray-50;
+  }
+
+}
